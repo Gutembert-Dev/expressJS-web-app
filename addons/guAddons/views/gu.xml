@@ -1,0 +1,8 @@
+<camer type="object">
+<properties>
+<subtotal type="integer"></subtotal>
+<taxes type='integer'></taxes>
+<total type="integer"></total>
+<name type="string"></name>
+</properties>
+</camer>

@@ -1,0 +1,24 @@
+<camer type="object">
+	<properties>
+		<subtotal type="integer"></subtotal>
+		<taxes type="integer"></taxes>
+		<total type="integer"></total>
+		<totalq type="integer"></totalq>
+		<name type="string"></name>
+		</properties>
+	<form>
+		<subtotal type="number" label="Sub Total"></subtotal>
+		<taxes type="number"></taxes>
+		<total type="number" label="Total Price"></total>
+		<totalq type="number" label="Total Quantity"></totalq>
+		<name type="text"></name>
+	</form>
+	<tree>
+		<id/>
+		<subtotal label="Sub Total"></subtotal>
+		<taxes/>
+		<total label="Total Price"></total>
+		<totalq label="Total Quantity"></totalq>
+		<name></name>
+	</tree>
+</camer>

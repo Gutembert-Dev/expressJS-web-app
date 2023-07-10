@@ -1,0 +1,1 @@
+{"subtotal":{"type":"integer"},"taxes":{"type":"integer"},"total":{"type":"integer"},"name":{"type":"string"},"comment":{"type":"string"},"table":{"type":"testn"}}

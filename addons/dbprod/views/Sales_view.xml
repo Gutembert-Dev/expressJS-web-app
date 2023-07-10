@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<camer type="object"> 
+    <Sales id="1">
+        <subtotal>"10"</subtotal>
+        <taxes>"2"</taxes>
+        <total>"20"</total>
+        <saledetails id="1">
+            <product>"Bean"</product>
+            <quantity>"2"</quantity>
+            <price>"6"</price>
+        </saledetails>
+        <saledetails id="2">
+            <product>"Yam"</product>
+            <quantity>3</quantity>
+            <price>7</price>
+        </saledetails>
+    </Sales>
+</camer>
+
+
+<!-- <camer type="object"> 
+    <SaleDetails id="3">
+       <product>"Bean3"</product>
+        <quantity>"3"</quantity>
+        <price>"3"</price>
+    </SaleDetails>
+</camer> -->

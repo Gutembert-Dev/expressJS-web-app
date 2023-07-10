@@ -1,0 +1,1 @@
+{"comment":{"type":"string"},"product":{"type":"string","minLength":"1","maxLength":"255"},"quantity":{"type":"integer"},"price":{"type":"integer"},"totalprice":{"type":"integer"},"sales_id":{"type":"integer"},"table":{"type":"saledetails"}}

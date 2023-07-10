@@ -1,0 +1,23 @@
+<camer type="object"> 
+    <properties>
+        <subtotal type="integer"></subtotal>
+        <taxes type="integer"></taxes>
+        <total type="integer"></total>
+        <name type="string"></name>
+    </properties> 
+    <form>
+        <subtotal type="number" label="Sub Total" name="subtotal"></subtotal>
+        <taxes type="number" icon="tag"></taxes>
+        <total type="number" icon="envelop"></total>
+        <name type="text"></name>
+        <!-- <tree><saledetails label="Sale Details"></saledetails></tree> --> <!--TODO: Handle case for tree in form.-->
+    </form> 
+    <tree>
+    	<id/>
+        <subtotal label="Sub Total"></subtotal>
+        <taxes></taxes>
+        <total label="Total price"></total>
+        <name></name>
+        <saledetails label="Sale Details"></saledetails>
+    </tree>
+</camer>

@@ -1,0 +1,25 @@
+<camer type="object"> 
+    <properties>
+    	<comment type="string"></comment>
+        <product type="string" minLength="1" maxLength="255"></product>
+        <quantity type="integer"></quantity>
+        <price type="integer"></price>
+        <totalprice type="integer"></totalprice>
+        <sales_id type="integer"></sales_id>
+    </properties> 
+    <form>
+        <product type="text"></product>
+        <quantity type="number"></quantity>
+        <price type="number"></price>
+        <totalprice type="number"  label="Total Price"></totalprice>
+        <comment type="textarea"></comment>
+    </form> 
+    <tree>
+    	<id/>
+        <product></product>
+        <quantity></quantity>
+        <price/>
+        <totalprice label="Total Ptice"></totalprice>
+        <sales_id></sales_id>
+    </tree>
+</camer>

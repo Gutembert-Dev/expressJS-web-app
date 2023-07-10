@@ -1,0 +1,14 @@
+{
+    "hello": "Hallo i18n in SFC!",
+    "welcome": "Willkommen!",
+    "yes-button": "Ja",
+    "no-button": "Nein!",
+    "Del": "Löschen",
+    "Edit": "Bearbeiten",
+    "View": "Aussicht",
+    "Home": "Zuhause",
+    "Shop": "Geschäft",
+    "Contact us": "Kontaktiere uns",
+    "Login / Register": "Anmeldung / Registrieren",
+    "Hello World from": "Hallo Welt aus"
+}

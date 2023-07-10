@@ -1,0 +1,21 @@
+<camer type="object"> 
+    <required>firstName</required>
+    <required>lastName</required>
+    <properties>
+        <!-- <id type="integer"></id> -->
+        <!-- <parentId> 
+            <type>integer</type>
+            <type>null</type>
+        </parentId> -->
+        <firstName type="string" minLength="1" maxLength="255"></firstName>
+        <lastName type="string" minLength="1" maxLength="255"></lastName>
+        <age type="integer"></age>
+        <!-- <address type="object">
+            <properties>
+                <street type="string"></street>
+                <city type="string"></city>
+                <zipCode type="string"></zipCode>
+            </properties> 
+        </address> -->
+    </properties>
+</camer>

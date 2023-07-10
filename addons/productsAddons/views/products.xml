@@ -1,0 +1,25 @@
+<camer type="object">
+	<properties>
+		<title type="string"></title>
+		<price type='integer'></price>
+		<name type="string"></name>
+		<description type="string"></description>
+		<public type="boolean"></public>
+	</properties>
+	<form>
+		<name type="text" required="true"></name>
+		<title type="text"></title>
+		<price type='number' required="true" min="0"></price>
+		<description type="textarea"></description>
+		<!-- <public type="radio" label="Public Product"></public> -->
+		<public type="checkbox" label="Public Product"></public>
+	</form>
+	<tree>
+		<id></id>
+		<name></name>
+		<title></title>
+		<price></price>
+		<description></description>
+		<public label="Public Product"></public>
+	</tree>
+</camer>

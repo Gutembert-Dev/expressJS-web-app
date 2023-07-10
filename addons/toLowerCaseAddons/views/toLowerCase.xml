@@ -1,0 +1,29 @@
+<camer type="object">
+
+<properties> <!-- Goes to db -->
+<subtotal type="integer"></subtotal>
+<taxes type='integer'></taxes>
+<total type="integer"></total>
+<name type="string" ></name>
+<surname type="string" ></surname>
+<comment type="string" ></comment>
+</properties>
+
+<form>
+<subtotal type="number"/> <!-- Goes to Vue form view -->
+<taxes type='number' hidden='true'/>
+<total type="number"></total>
+<name type="text"/>
+<surname type="text"></surname>
+<comment type="texArea"></comment>
+</form>
+
+<tree> <!-- Goes to Vue tree view -->
+<subtotal></subtotal>
+<taxes/>
+<total label="Total Price"></total>
+<name/>
+<surname></surname>
+</tree>
+
+</camer>

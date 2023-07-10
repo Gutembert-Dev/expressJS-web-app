@@ -1,0 +1,17 @@
+<camer type="object">
+<properties>
+<email type="string"></email>
+<username type='string'></username>
+<password type="string"></password>
+</properties>
+<form>
+<email type="email"></email>
+<username type='text'></username>
+<password type="password"></password>
+</form>
+<tree>
+<id></id>
+<email></email>
+<username></username>
+</tree>
+</camer>

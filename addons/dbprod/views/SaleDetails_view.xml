@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<template>
+  <div class="event">
+    <div class="label">
+      <img :src="post.user.avatar_url" />
+    </div>
+    <div v-if="!!post.user" class="content">
+
+      <div class="summary">
+        <router-link :to="`/users/${post.user.id}`">
+          {{ post.user.name }}
+          <small>{{ `@${post.user.username}` }}</small>
+        </router-link>
+        [<router-link :to="`/groups/${post.groups_id}`">
+          <small>{{ post.group.name }}</small>
+        </router-link>]
+        <div class="date">{{ post.created_at | timeAgo }}</div>
+      </div>
+      <router-link :to="`/${post.user.username}/status/${post.id}`">
+        <div class="extra text">{{ post.body }}</div>
+      </router-link>
+    </div>
+    <div class="">
+      <div class="btn" flat color="grey" @click="deletePost(post.id)">
+        <i class="fa fa-trash " ></i>
+        <span>Delete</span>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+import PostsService from '../../services/PostsService'
+export default {
+  name: "Post",
+  props: {
+    post: {
+      type: Object,
+      required: true
+    }
+  },
+  methods: {
+    deletePost: async function (id) {
+      let response = await PostsService.deletePost(id)
+        console.log('this is the repsonse b4 emit deleted', response);
+      if (response.status === 200) {
+        console.log('post deleted, about to emit');
+        this.$emit('post-deleted');
+      }
+    }
+  }
+};
+</script>

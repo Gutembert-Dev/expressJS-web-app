@@ -1,0 +1,1 @@
+exports.up = function(knex, Promise) {return knex.schema.createTable('camer', (t) => {t.increments('id').primary();t.timestamps(true, true);t.string('title');});};exports.down = function(knex, Promise) {return knex.schema.dropTable('camer');};

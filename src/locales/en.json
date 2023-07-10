@@ -1,0 +1,14 @@
+{
+    "hello": "Hello i18n in SFC!",
+    "welcome": "Welcome!",
+    "yes-button": "Yes",
+    "no-button": "No!",
+    "Del": "Del",
+    "Edit": "Edit",
+    "View": "View",
+    "Home": "Home",
+    "Shop": "Shop",
+    "Contact us": "Contact us",
+    "Login / Register": "Login / Register",
+    "Hello World from": "Hello World from"
+}

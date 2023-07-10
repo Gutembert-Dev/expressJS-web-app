@@ -1,0 +1,1 @@
+{"title":{"type":"string"},"price":{"type":"integer"},"name":{"type":"string"},"description":{"type":"string"},"public":{"type":"boolean"},"table":{"type":"products"}}

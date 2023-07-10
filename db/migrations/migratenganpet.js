@@ -1,0 +1,1 @@
+exports.up = function(knex, Promise) {return knex.schema.createTable('nganpet', (t) => {t.increments('id').primary();t.timestamps(true, true);t.integer('subtotal');t.integer('taxes');t.string('tot');});};exports.down = function(knex, Promise) {return knex.schema.dropTable('nganpet');};
